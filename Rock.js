@@ -5,7 +5,7 @@ class Rock{
      
       this.width = width;
       this.height = height;
-      this.image=loadImage("images/rock1.png");
+     
       World.add(myWorld,this.body);
     }
     show()
@@ -17,7 +17,7 @@ class Rock{
         imageMode(CENTER);
         fill('black');
         stroke ("grey");
-        image(this.image,pos.x,pos.y,this.width, this.height);
+        
     }
 
 
